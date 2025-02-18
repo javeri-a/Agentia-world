@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(true); 
+  const [isDarkMode] = useState(true); 
 
   const navLinks = [
     { name: "Features", id: "features" },
